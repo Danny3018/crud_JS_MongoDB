@@ -1,0 +1,29 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "juan esteban",
+    "age": "15",
+    "email": "juancitoesteban@gmail.com"
+}
+
+
+###
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/6333cd4f265ab336da01a3c9  HTTP/1.1
+
+###
+PUT http://localhost:9000/api/users/6333cbd4802634a1173d733a HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"isabela patricia",
+    "age": 16,
+    "email": "isabela02@gmail.com"
+}
+
+###
+DELETE http://localhost:9000/api/users/633449c3bb236028bc03c132 HTTP/1.1
